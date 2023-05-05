@@ -3,7 +3,7 @@ import requests
 import csv
 from pandas import DataFrame
 
-#scrapre recipes off of the Simply Recipes website
+#scrape recipes off of the Simply Recipes website
 def SimplyRecipe(link, name):
    name_index = 0
    for i in link:
